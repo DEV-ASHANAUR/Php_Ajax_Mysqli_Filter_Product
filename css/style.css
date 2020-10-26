@@ -1,0 +1,33 @@
+#loading{
+    text-align:center; 
+    background: url('../img/loader/1.gif') no-repeat center; 
+    height: 150px;
+}
+
+h2.text-center.mt-4.mb-4.head {
+    font-weight: 800;
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+.title{
+    font-weight: 800;
+    font-size: 20px;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+h2.text-center.mt-4.mb-4.head::before{
+    position: absolute;
+    content: "";
+    background: #333333;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 2px;
+    margin: auto;
+    bottom: 0;
+}
